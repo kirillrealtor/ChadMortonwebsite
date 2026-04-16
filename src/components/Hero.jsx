@@ -2,20 +2,20 @@ import { motion } from 'framer-motion';
 
 const Hero = () => {
   return (
-    <section 
-      style={{ 
-        height: '100vh', 
-        width: '100%', 
-        position: 'relative', 
-        display: 'flex', 
-        alignItems: 'center', 
+    <section
+      style={{
+        height: '100vh',
+        width: '100%',
+        position: 'relative',
+        display: 'flex',
+        alignItems: 'center',
         justifyContent: 'center',
         background: '#1A2744',
         overflow: 'hidden'
       }}
     >
       {/* Background with overlay */}
-      <div 
+      <div
         style={{
           position: 'absolute',
           top: 0,
@@ -28,9 +28,9 @@ const Hero = () => {
           opacity: 0.4
         }}
       />
-      
+
       {/* Gradient Overlay for depth */}
-      <div 
+      <div
         style={{
           position: 'absolute',
           top: 0,
@@ -41,11 +41,11 @@ const Hero = () => {
         }}
       />
 
-      <div 
-        className="container" 
-        style={{ 
-          zIndex: 10, 
-          textAlign: 'center', 
+      <div
+        className="container"
+        style={{
+          zIndex: 10,
+          textAlign: 'center',
           color: 'white',
           padding: '0 1rem'
         }}
@@ -55,34 +55,34 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <span 
-            className="accent-label" 
-            style={{ 
-              display: 'block', 
+          <span
+            className="accent-label"
+            style={{
+              display: 'block',
               marginBottom: '1.5rem',
               color: '#C8A96E'
             }}
           >
             Premier Real Estate
           </span>
-          
-          <h1 
-            style={{ 
-              fontSize: 'clamp(2.5rem, 8vw, 5rem)', 
-              lineHeight: 1.1, 
+
+          <h1
+            style={{
+              fontSize: 'clamp(2.5rem, 8vw, 5rem)',
+              lineHeight: 1.1,
               marginBottom: '1.5rem',
               maxWidth: '1000px',
               margin: '0 auto 1.5rem'
             }}
           >
-            The DMV’s Top Agent is ready <br />
+            The DMV’s Top Agent is READY <br />
             <span style={{ fontStyle: 'italic', fontWeight: 400 }}>to go to work for you!</span>
           </h1>
-          
-          <p 
-            style={{ 
-              fontSize: 'clamp(1rem, 3vw, 1.5rem)', 
-              fontWeight: 300, 
+
+          <p
+            style={{
+              fontSize: 'clamp(1rem, 3vw, 1.5rem)',
+              fontWeight: 300,
               marginBottom: '3rem',
               maxWidth: '700px',
               margin: '0 auto 3rem',
@@ -93,8 +93,8 @@ const Hero = () => {
             Over $250,000,000 Sold. 20+ Years of Excellence. <br />
             Your Home. Your Terms.
           </p>
-          
-          <motion.a 
+
+          <motion.a
             href="#contact"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
