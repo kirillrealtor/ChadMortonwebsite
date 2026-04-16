@@ -75,8 +75,8 @@ const Hero = () => {
               margin: '0 auto 1.5rem'
             }}
           >
-            Washington DC's Agent Who Goes <br />
-            <span style={{ fontStyle: 'italic', fontWeight: 400 }}>All Gas, No Brakes.</span>
+            The DMV’s Top Agent is ready <br />
+            <span style={{ fontStyle: 'italic', fontWeight: 400 }}>to go to work for you!</span>
           </h1>
           
           <p 

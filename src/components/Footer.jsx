@@ -12,7 +12,7 @@ const Footer = () => {
               CHAD MORTON
             </h3>
             <p style={{ opacity: 0.7, fontSize: '1rem', maxWidth: '300px' }}>
-              Washington DC's agent who goes all gas, no brakes. Delivering excellence for over 20 years.
+              The DMV’s Top Agent is ready to go to work for you! Delivering excellence for over 20 years.
             </p>
           </div>
 
