@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 const Media = () => {
   const mediaOutlets = [
     { name: "HGTV", detail: "Featured on House Hunters" },
-    { name: "CNBC", detail: "National Media Feature" },
+    { name: "American Dream", detail: "TV Show Co-Host" },
     { name: "Fox Business", detail: "Real Estate Expert Feature" },
     { name: "Real Producers", detail: "April 2026 Cover Story" }
   ];

@@ -8,7 +8,7 @@ const Videos = () => {
           <span className="accent-label" style={{ color: '#C8A96E' }}>Featured In TV</span>
           <h2 style={{ fontSize: '3rem', color: 'white', marginTop: '1rem' }}>Watch Chad in Action</h2>
           <p style={{ maxWidth: '700px', margin: '1rem auto', opacity: 0.8 }}>
-            Featured on The American Dream TV — the nation's premier real estate lifestyle show.
+            Co-Host on The American Dream TV — the nation's premier real estate lifestyle show.
           </p>
         </div>
 

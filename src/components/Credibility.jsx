@@ -6,7 +6,7 @@ const Credibility = () => {
     { icon: "🏠", label: "50+ Transactions Closed in 2024" },
     { icon: "⭐", label: "7x Platinum Agent — PG County" },
     { icon: "🎖️", label: "Veterans United Platinum Agent" },
-    { icon: "📺", label: "Featured on HGTV, CNBC & More" }
+    { icon: "📺", label: "American Dream TV Co-Host & HGTV Content" }
   ];
 
   return (
